@@ -1,0 +1,22 @@
+# Raw large datasets — never commit directly
+data/trump_tweets.csv
+data/sentiment140.csv
+data/mental_health_reddit.csv
+data/clean_dataset.csv
+
+# Human evaluation raw data
+data/human_evaluation.xlsx
+data/Human_Evaluation.xlsx
+
+# Large model files
+*.pth
+*.bin
+*.safetensors
+
+# Python cache
+__pycache__/
+*.pyc
+.env
+
+# Jupyter
+.ipynb_checkpoints
